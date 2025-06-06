@@ -20,4 +20,4 @@ EXPOSE 3000
 
 # Perintah utama untuk menjalankan aplikasi
 # menggunakan Node.js
-CMD [“node”, “server.js”]
+CMD ["node", "server.js"]
