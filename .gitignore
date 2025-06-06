@@ -28,6 +28,13 @@ dist/
 build/
 
 # Google Cloud
+# Ignore all .json except for service account
 *.json
 !package.json
 !package-lock.json
+!config/g-04-450802-69a6bc04b095.json
+
+config/*.json
+
+# Credentials
+config/g-04-450802-69a6bc04b095.json
